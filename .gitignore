@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Projects files
+api_request.pyc
+temperature.pyc
+picklefile
+.picklefile
+script_temperature.py.save
+
+
