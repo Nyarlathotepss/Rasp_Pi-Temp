@@ -34,9 +34,8 @@ class Temperature:
         the_temperature = float
         for data in reversed(list_temp):
             print(data, type(data))
-            if not isinstance(data, float):
-                continue
-            else:
+            if isinstance(data, float):
                 the_temperature = data
                 break
+
         return the_temperature
