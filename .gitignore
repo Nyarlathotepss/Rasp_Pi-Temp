@@ -134,5 +134,5 @@ temperature.pyc
 picklefile
 .picklefile
 script_temperature.py.save
-
+cron_logs.log
 
