@@ -2,7 +2,7 @@ class Temperature:
     """	Get temperature from raspberry pi 3 Read file at this location 'sys/bus/w1/devices/28-031797797dbc/w1_slave/'
     And modify string to get temperature as float """
 
-    def read_file(self, location='/sys/bus/w1/devices/28-031797797dbc/w1_slave'):
+    def read_file(self, location):
         """Read file with temperature information"""
         # open file with temp
         filetemp = open(location)
